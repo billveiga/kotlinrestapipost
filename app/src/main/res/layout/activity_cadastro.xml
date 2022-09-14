@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:orientation="vertical"
+    android:layout_margin="24dp"
+    tools:context="cadastro">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cadastro de usuário"
+        android:layout_gravity="center_horizontal"
+        android:textSize="24dp"
+        android:textColor="@android:color/holo_green_dark"
+
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/edit_text_nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Seu nome"
+        android:textColorHint="@android:color/holo_green_dark"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:id="@+id/edit_text_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Seu e-mail"
+        android:textColorHint="@android:color/holo_green_dark"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/edit_text_estado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Seu estado"
+        android:textColorHint="@android:color/holo_green_dark"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/edit_text_cel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Número de Celular"
+        android:textColorHint="@android:color/holo_green_dark"
+        android:layout_marginTop="20dp"/>
+    <EditText
+        android:id="@+id/edit_text_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sua senha"
+        android:textColorHint="@android:color/holo_green_dark"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/button_confirmar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50sp"
+        android:background="@drawable/button_green_main"
+        android:text="Confirmar"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"/>
+
+
+</LinearLayout>
